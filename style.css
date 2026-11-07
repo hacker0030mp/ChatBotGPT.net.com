@@ -1,0 +1,2 @@
+.nav-tab { background-color: transparent; color: #AAA2B8; }
+.nav-tab.active { background: linear-gradient(135deg, #8055D8, #6030C0); color: #FFF; box-shadow: 0 4px 15px rgba(128,85,216,0.4); }

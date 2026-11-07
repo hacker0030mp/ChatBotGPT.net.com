@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Control Panel - ChatBotGPT-around-AI.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0D0B14] text-[#F5F0FF] min-h-screen font-kanit flex flex-col justify-between">
+    <header class="border-b border-[#40364F] bg-[#191622]/90 backdrop-blur-md sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <span class="text-4xl text-[#FF4D4D]">🛡️</span>
+                <div>
+                    <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF4D4D] to-[#9D72F3]">
+                        ADMIN CONTROL PANEL (v1.5)
+                    </h1>
+                    <p class="text-xs text-[#AAA2B8]">ระบบจัดการหลังบ้านสำหรับผู้ดูแลระบบ อัปเดตไฟล์ และควบคุม Themark</p>
+                </div>
+            </div>
+            <div>
+                <a href="index.html" class="bg-[#2A2438] hover:bg-[#3D3452] border border-[#574A69] text-white px-4 py-2 rounded-xl text-xs font-semibold transition-all">
+                    ← กลับสู่หน้าหลักพอร์ทัล
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-6 flex-1 w-full space-y-6">
+        <!-- Admin Stats Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-[#191622] border border-[#40364F] p-5 rounded-2xl shadow-xl">
+                <span class="text-xs text-[#AAA2B8]">ผู้ใช้งานทั้งหมด / เครดิตรวม</span>
+                <div class="text-2xl font-bold text-[#82ECAD] mt-1" id="adminTotalCredits">Loading...</div>
+            </div>
+            <div class="bg-[#191622] border border-[#40364F] p-5 rounded-2xl shadow-xl">
+                <span class="text-xs text-[#AAA2B8]">จำนวนสคริปต์ในระบบ</span>
+                <div class="text-2xl font-bold text-[#9D72F3] mt-1" id="adminScriptCount">0 Scripts</div>
+            </div>
+            <div class="bg-[#191622] border border-[#40364F] p-5 rounded-2xl shadow-xl">
+                <span class="text-xs text-[#AAA2B8]">สถานะเซิร์ฟเวอร์ & Themark DB</span>
+                <div class="text-2xl font-bold text-[#82ECAD] mt-1">Operational (Secure)</div>
+            </div>
+        </div>
+
+        <!-- Admin File Upload & System Update Panel -->
+        <div class="bg-[#191622] border border-[#40364F] rounded-2xl p-6 shadow-2xl">
+            <h2 class="text-xl font-bold text-[#9D72F3] mb-2">📤 Admin System Update & File Upload</h2>
+            <p class="text-xs text-[#AAA2B8] mb-4">ฟังก์ชันเฉพาะผู้ดูแลระบบ สำหรับอัปเดตไฟล์คอนฟิก, ฐานข้อมูล theMark.json หรืออัปเกรดสคริปต์แบ็กเอนด์</p>
+            
+            <form id="adminUpdateForm" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold mb-1 text-[#AAA2B8]">เลือกหมวดหมู่ไฟล์ที่จะอัปเดต</label>
+                    <select id="updateTargetType" class="w-full bg-[#0E0C14] border border-[#574A69] rounded-xl px-4 py-2.5 text-sm text-white outline-none">
+                        <option value="themark_json">themark.json (ฐานข้อมูลเธอมัก & รีดีมโค้ด)</option>
+                        <option value="admin_script">admin.js (สคริปต์ระบบหลังบ้าน)</option>
+                        <option value="core_app">app.js / Core Script Package</option>
+                    </select>
+                </div>
+
+                <div class="border-2 border-dashed border-[#574A69] hover:border-[#FF4D4D] p-6 text-center cursor-pointer bg-[#0E0C14]/50 rounded-xl transition-all" id="adminDropZone">
+                    <input type="file" id="adminFileInput" class="hidden">
+                    <p class="text-xs font-semibold" id="adminFileNameDisplay">คลิกหรือลากไฟล์อัปเดตระบบมาวางที่นี่ (.json, .js)</p>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-[#FF4D4D] to-[#9D72F3] text-white font-bold py-3 rounded-xl text-sm transition-all shadow-lg">
+                    ยืนยันการอัปเดตระบบ (Admin Upload)
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-[#211B2C] border border-[#FF4D4D] text-white px-6 py-2.5 rounded-xl text-sm font-semibold shadow-2xl z-50 opacity-0 pointer-events-none transition-all"></div>
+
+    <footer class="border-t border-[#40364F] bg-[#0E0C14] py-4 text-center text-xs text-[#AAA2B8]">
+        Admin Portal · ChatBotGPT-around-AI.com (v1.5)
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>

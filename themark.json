@@ -1,0 +1,633 @@
+{
+  "system_name": "ChatBotGPT-around-AI & Themark Management Hub",
+  "version": "1.5.0-Production",
+  "items": [
+    {
+      "id": 1,
+      "name": "AI Duality Persona Engine (White & Dark)",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Termux Sandbox Management Console",
+      "status": "Online"
+    },
+    {
+      "id": 3,
+      "name": "Form 3 Lua Code Obfuscation Engine",
+      "status": "Secured"
+    },
+    {
+      "id": 4,
+      "name": "Script Shortener Loader Service",
+      "status": "Active"
+    }
+  ],
+  "codes": {
+    "THEMARK-2026-001-5KG0": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-002-PKUR": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-003-XF7I": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-004-ONLA": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-005-SGEX": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-006-7VTP": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-007-FFDX": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-008-USEI": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-009-68KQ": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-010-QP6V": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-011-ZFD9": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-012-KJIV": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-013-CCBM": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-014-7FY7": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-015-JZO8": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-016-F1FL": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-017-490R": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-018-7HVN": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-019-DEWG": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-020-V8U7": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-021-LPGY": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-022-NXSM": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-023-GNED": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-024-CX8L": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-025-1M9H": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-026-LV58": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-027-UR8T": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-028-67DO": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-029-VLWV": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-030-2S0V": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-031-T2G0": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-032-7T5Z": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-033-PDWX": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-034-E5FV": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-035-ZKNH": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-036-FWLP": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-037-M6VI": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-038-70MO": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-039-ZIWJ": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-040-KFB0": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-041-YNN7": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-042-69BT": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-043-APL8": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-044-QHXB": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-045-3JR0": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-046-S5F6": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-047-Y9JX": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-048-B496": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-049-QF0T": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-050-KROP": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-051-XMFR": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-052-YNDC": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-053-HR6K": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-054-I4B8": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-055-YX4R": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-056-4CH0": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-057-TJ7Q": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-058-4H3Q": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-059-0W17": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-060-R3DH": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-061-QEL0": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-062-LW4Q": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-063-77XC": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-064-O3VS": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-065-YI3Z": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-066-2VOI": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-067-YHRP": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-068-VSFE": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-069-JUME": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-070-NPCE": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-071-K3AG": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-072-II21": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-073-PK5V": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-074-9Z9C": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-075-D3BA": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-076-AYBH": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-077-5BW9": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-078-ZFOD": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-079-BRO2": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-080-FLJR": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-081-NVRP": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-082-ITJR": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-083-Q1BM": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-084-4QFM": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-085-TO5W": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-086-R41S": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-087-DXIM": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-088-W6OQ": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-089-GGJX": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-090-9STW": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-091-WBEI": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-092-RGSN": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-093-Z1AR": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-094-8QT7": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-095-E455": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-096-VYO9": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-097-J3T5": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-098-SQ2X": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-099-W1V0": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-100-4WDI": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-101-NMT1": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-102-SR2T": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-103-NO2R": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-104-ZHTC": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-105-9KOS": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-106-XEGU": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-107-DNBR": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-108-HOWB": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-109-W4IO": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-110-RJH7": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-111-IJY9": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-112-BDM2": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-113-0XJD": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-114-LMFD": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-115-LOH3": {
+      "amount": 200,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-116-JP2X": {
+      "amount": 500,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-117-U4HP": {
+      "amount": 1000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-118-UABE": {
+      "amount": 2000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-119-OQE6": {
+      "amount": 5000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "THEMARK-2026-120-ZMU8": {
+      "amount": 100,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    },
+    "ADMIN-MASTER-1000": {
+      "amount": 10000,
+      "lastRedeemed": 0,
+      "cooldownDays": 7
+    }
+  }
+}
