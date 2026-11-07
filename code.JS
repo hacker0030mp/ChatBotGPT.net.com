@@ -2,5 +2,5 @@
 "use strict";
 
 function getForm3Sample() {
-    return `-- Form 3 Execution Sample\nURL="lock-code-net.$$$$$#####.com/"\nprint("YinYang Engine v1.5")`;
+    return `-- Form 3 Execution Sample\nURL="lock-code-net.com.onrender.com.com/"\nprint("YinYang Engine v1.5")`;
 }
